@@ -18,3 +18,7 @@ wheels/
 *.iml
 
 
+# Datasets
+data/
+
+
