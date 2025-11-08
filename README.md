@@ -47,3 +47,17 @@ The dataset is sourced from the **NFL Big Data Bowl 2026** competition and inclu
 - **Evaluation**: Offline validation on historical plays; leaderboard evaluation on live data  
 
 ---
+
+## Downloading the Dataset
+
+Ensure that you are **authenticated with Kaggle** (have your API token configured).
+
+You can download the NFL Big Data Bowl 2026 dataset using the Kaggle API with the following script:
+
+```bash
+# Download the dataset
+kaggle competitions download -c nfl-big-data-bowl-2026-prediction -p data/raw
+
+# Unzip the dataset
+unzip data/raw/nfl-big-data-bowl-2026-prediction.zip -d data/raw
+
